@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mokepon</title>
+    <script src="./js/code.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mokepon 💧 🌱 🔥</h1>
+        <p>Atrápalos a todos</p>
+    </header>
+    <main>
+        <section id="pet_selection">
+            <h3>Selecciona tu mascota</h3>
+            
+            <input type="radio" name="pet_list" id="inputCapipepo">
+            <label for="inputCapipepo">Capipepo</label>
+
+            <input type="radio" name="pet_list" id="inputHypodoge">
+            <label for="inputHypodoge">Hypodoge</label>
+
+            <input type="radio" name="pet_list" id="inputRatigueya">
+            <label for="inputRatigueya">Ratigueya</label>
+
+            <p><button id="btn_pet_selection">Seleccionar</button></p>
+        </section>
+
+        <section id="atack_selection">
+            <h3>Selecciona tu Ataque</h3>
+
+            <p>
+                <button id="btn_atack_A">Agua 💧</button>
+                <button id="btn_atack_T">Tierra 🌱</button>
+                <button id="btn_atack_F">Fuego 🔥</button>
+            </p>
+        </section>
+
+        <section id="monitor">
+            <p>Tu mascota <span id="spn_player_pet"></span> tiene <span>3</span> vidas</p>
+            <p>La mascota <span id="spn_enemy_pet"></span> del enemigo tiene <span>3</span> vidas</p>
+        </section>
+
+        <section id="reset">
+            <p><button id="btn_reset">Reset</button></p>
+        </section>
+    </main>
+</body>
+</html>
